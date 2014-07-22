@@ -3,7 +3,7 @@
 #
 #
 # Install required X11 packages:
-yum install -y xorg-x11-xinit xorg-x11-server-Xorg xorg-x11-drv-* xorg-x11-xinit xorg-x11-server-common
+yum install -y xorg-x11-* xterm gtk2.x86_64 GConf2.x86_64 git wget alsa-lib.x86_64
 # Install required libs:
 yum install -y xterm gtk2.x86_64 GConf2.x86_64 git wget alsa-lib.x86_64
 
